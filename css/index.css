@@ -1,0 +1,71 @@
+:root{
+--main-color:rgba(236, 118, 22, 0.986);
+--btn-color:rgb(110, 110, 247);
+--btn-focus:rgb(15, 15, 235);
+}
+
+h2{
+    color: var(--main-color);
+}
+
+.name{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.all ,.table{
+    width: 70%;
+    margin: auto;
+}
+.all{
+    padding-top: 30px;
+}
+.all input{
+    color: black;
+    margin: 10px 0px;
+    transition: 0.3s;
+}
+.all input:focus{
+    background: rgb(241, 238, 233);
+    transform: scale(1.05)
+}
+.total-all input{
+    width: 21%;
+    margin: 0;
+}
+.small{
+    background-color: var(--main-color);
+
+    padding: 10px 5px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+.small::before{
+    content: 'Total:';
+}
+.btn, .table th button{
+    border-radius: 20px;
+}
+.btn{
+    background-color: var(--btn-color);
+    transition: 0.3s;
+}
+.btn:hover{
+    background-color: var(--btn-focus);
+    letter-spacing: 1px;
+}
+.by-titl ,.by-cate{
+    width: 46%;
+}
+.table{
+    text-align: center;
+}
+table thead{
+    text-transform: uppercase;
+}
+.table tr th{
+    border: 0;
+}
